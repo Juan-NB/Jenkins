@@ -21,6 +21,7 @@ pipeline {
     stage ('Deploy') {
       steps {
         echo "End"
+        echo "branch1"
       }
     }
   }
