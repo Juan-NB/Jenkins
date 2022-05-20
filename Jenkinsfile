@@ -5,6 +5,7 @@ pipeline {
       steps {
         sh '''
         ls
+        pwd
         echo "Welcome"
         uname
         hostname
